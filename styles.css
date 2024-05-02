@@ -4,7 +4,7 @@ body {
 }
 
 .header {
-    background-color:#00704A;
+    background-color: #00704A;
     padding: 5px 0;
     text-align: center;
 }
@@ -12,21 +12,58 @@ body {
 .delivery-banner p {
     color: white;
     margin: 0;
-    font-family:'SodoR';
+    font-family: 'SodoR';
 }
 
 .navbar-list {
     color: #00704A;
-    font-family:'Sodo';
+    font-family: 'Sodo';
 }
 
 .image-container {
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 .image-container img {
     display: block;
     margin: 0 auto;
     width: 200px;
+}
+
+.img-container {
+    display: flex;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.img-container img {
+    width: 150px;
+    height: 170px;
+    border-radius: 10px;
+    margin-right: 200px;
+    overflow: hidden;
+}
+
+.img-container img:last-child {
+    margin-right: 0;
+}
+
+.subheading h2 {
+    color: #00704A;
+    font-family: 'Lander';
+    padding-left: 205px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.img-container div {
+    text-align: center;
+    margin: 0 10px;
+}
+
+.img-container p {
+    margin: 5px 0 0;
+    font-family: 'SodoR';
 }
