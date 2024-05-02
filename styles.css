@@ -19,3 +19,14 @@ body {
     color: #00704A;
     font-family:'Sodo';
 }
+
+.image-container {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.image-container img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
