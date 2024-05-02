@@ -23,12 +23,8 @@ body {
 .image-container {
     text-align: center;
     padding-bottom: 50px;
-}
-
-.image-container img {
-    display: block;
-    margin: 0 auto;
-    width: 200px;
+    justify-content: center;
+    display: flex;
 }
 
 .img-container {
@@ -55,7 +51,7 @@ body {
     font-family: 'Lander';
     padding-left: 205px;
     padding-top: 80px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 .img-container div {
@@ -66,4 +62,19 @@ body {
 .img-container p {
     margin: 5px 0 0;
     font-family: 'SodoR';
+}
+
+.summerhead h1 {
+    color: #00704A;
+    font-family: 'lander';
+    text-align: center;
+    padding-top: 100px;
+}
+
+.sspara p {
+    font-family: 'SodoR';
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 205px;
+    padding-right: 205px;
 }
