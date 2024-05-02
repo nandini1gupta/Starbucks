@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color:#00704A;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.delivery-banner p {
+    color: white;
+    margin: 0;
+    font-family:'SodoR';
+}
