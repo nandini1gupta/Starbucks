@@ -87,3 +87,32 @@ body {
         color: inherit;
         text-decoration: none;
 }
+
+.card-body {
+    font-family:'SodoR';
+}
+
+.carousel-inner {
+    font-family:'SodoR';
+}
+
+.bar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    list-style-type: none;
+        padding: 0;
+}
+
+.bar-list {
+    color: #f2f0eb;
+    font-family: 'SodoR';
+    text-align: center;
+    padding: 5px 50px;
+}
+
+.bar-list a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
