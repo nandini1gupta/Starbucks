@@ -513,3 +513,21 @@ h1 {
     width: 70px;
     margin-left: -12px;
 }
+
+.card {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card2 {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card2:hover {
+    transform: translateY(-5px);
+}
