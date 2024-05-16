@@ -140,25 +140,22 @@ body {
     background-size: cover;
 }
 
-/* Container for the entire carousel */
 .cl-container {
     width: 100%;
     max-width: 1400px;
-    /* Adjust the maximum width as needed */
     margin: 0 auto;
-    /* Center the carousel horizontally */
     overflow: hidden;
     position: relative;
     user-select: none;
 }
 
-/* Inner container that holds the card groups */
+
 .cl-inner {
     display: flex;
     transition: transform 0.5s ease;
 }
 
-/* Container for each group of 4 cards */
+
 .cl-group {
     flex: 0 0 100%;
     display: flex;
@@ -166,17 +163,13 @@ body {
     align-items: center;
 }
 
-/* Individual card styles */
 .cl-card {
     margin: 10px;
     width: 18rem;
     height: 380px;
     border-radius: 8px;
-    /* Add rounded corners */
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    /* Add a subtle shadow */
     transition: transform 0.3s ease;
-    /* Add a smooth hover effect */
 }
 
 .cl-card:hover {
@@ -188,9 +181,7 @@ body {
     width: 275px;
     margin: 5px;
     border-radius: 8px 8px 0 0;
-    /* Add rounded corners to the top */
     object-fit: cover;
-    /* Maintain aspect ratio and fill the image container */
 }
 
 .cl-card-body {
@@ -224,7 +215,6 @@ body {
     margin-top: 20px;
 }
 
-/* Previous and Next button styles */
 .cl-control {
     position: absolute;
     top: 50%;
@@ -252,3 +242,93 @@ body {
     right: 10px;
 }
 
+.cl-radio {
+    position: absolute;
+    left: -9999px;
+}
+
+.footer {
+    background-color: #00704A;
+    color: #fff;
+    font-family: 'Sodo', sans-serif;
+    padding: 40px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    position: relative;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ccc;
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-links li {
+    margin-right: 10px;
+}
+
+.social-links a {
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #ccc;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-col {
+        width: 100%;
+    }
+}
