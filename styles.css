@@ -79,3 +79,7 @@ body {
     padding-right: 300px;
     justify-content: center;
 }
+
+.nav-link.active {
+    color: #00704A;
+}
