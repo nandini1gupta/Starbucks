@@ -332,3 +332,12 @@ body {
         width: 100%;
     }
 }
+
+#cl-slide-3:checked~.cl-inner {
+    transform: translateX(0);
+}
+
+#cl-slide-4:checked~.cl-inner {
+    transform: translateX(-100%);
+}
+
