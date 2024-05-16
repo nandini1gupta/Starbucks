@@ -338,6 +338,15 @@ body {
         width: 50%;
         margin-bottom: 30px;
     }
+
+    .contact-section {
+        flex-direction: row;
+    }
+    
+    .contact-form,
+    .contact-image {
+        width: 50%;
+    }
 }
 
 @media (max-width: 480px) {
