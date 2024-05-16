@@ -80,6 +80,10 @@ body {
     justify-content: center;
 }
 
-.nav-link.active {
-    color: #00704A;
+.navbar-name{
+    font-family: 'Sodo';
+        padding-left: 20px;
+        padding-right: 10px;
+        color: inherit;
+        text-decoration: none;
 }
