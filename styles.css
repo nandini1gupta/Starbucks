@@ -396,7 +396,7 @@ html {
 }
 
 .banner-text h2 {
-    font-family: 'Lander', Arial, sans-serif;
+    font-family: 'Lander';
     font-size: 3em;
 }
 
@@ -423,9 +423,11 @@ html {
     padding: 20px;
 }
 
-h1 {
+.container h1 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    font-family: 'Lander';
+    color: #00704A;
 }
 
 .contact-section {
@@ -447,7 +449,9 @@ h1 {
 
 .contact-form label {
     margin-bottom: 5px;
-    font-weight: bold;
+    font-family: 'Sodo';
+    text-align: left;
+    padding-left: 10px;
 }
 
 .contact-form input,
