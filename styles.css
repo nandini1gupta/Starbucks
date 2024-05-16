@@ -535,3 +535,7 @@ html {
 .card2:hover {
     transform: translateY(-5px);
 }
+
+.icons:hover {
+    cursor: pointer;
+}
