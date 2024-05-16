@@ -89,7 +89,8 @@ body {
 }
 
 .card-body {
-    font-family:'SodoR';
+    font-family:'Sodo';
+    font-size: medium;
 }
 
 .carousel-inner {
